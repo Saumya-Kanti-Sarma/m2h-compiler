@@ -1,0 +1,79 @@
+{
+  "type": "Document",
+  "children": [
+    {
+      "type": "Heading",
+      "level": 1,
+      "children": [
+        {
+          "type": "Text",
+          "value": "this is h1 and this is "
+        },
+        {
+          "type": "Bold",
+          "children": [
+            {
+              "type": "Text",
+              "value": "bold text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Heading",
+      "level": 2,
+      "children": [
+        {
+          "type": "Text",
+          "value": "this is h2"
+        }
+      ]
+    },
+    {
+      "type": "HorizontalRule"
+    },
+    {
+      "type": "Paragraph",
+      "children": [
+        {
+          "type": "Bold",
+          "children": [
+            {
+              "type": "Text",
+              "value": "Bold Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Paragraph",
+      "children": [
+        {
+          "type": "Italic",
+          "children": [
+            {
+              "type": "Text",
+              "value": "Italic Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BlockQuote",
+      "children": [
+        {
+          "type": "Paragraph",
+          "children": [
+            {
+              "type": "Text",
+              "value": "This is a quote."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
